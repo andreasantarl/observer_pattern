@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+<body>
+  <h1>Observer Pattern Practice</h1>
+  <p>Click the buttons to see the binary count go up</p>
+  Match your binary count to the target binary count
+  <br />
+
+  <div class="game">
+    <div class="block">
+      <input type="button" class="binaryButton" id="button6" value="0" data-value="32">
+      <div class="value">32</div>
+    </div>
+    <div class="block">
+      <input type="button" class="binaryButton" id="button5" value="0" data-value="16">
+      <div class="value">16</div>
+    </div>
+    <div class="block">
+      <input type="button" class="binaryButton" id="button1" value="0" data-value="8">
+      <div class="value">8</div>
+    </div>
+    <div class="block">
+      <input type="button" class="binaryButton" id="button2" value="0" data-value="4">
+      <div class="value">4</div>
+    </div>
+    <div class="block">
+      <input type="button" class="binaryButton" id="button3" value="0" data-value="2">
+      <div class="value">2</div>
+    </div>
+    <div class="block">
+      <input type="button" class="binaryButton" id="button4" value="0" data-value="1">
+      <div class="value">1</div>
+    </div>
+  </div>
+  <div class="gameValues">
+    <div class="container">
+      <p>Your binary count</p>
+      <div class="sumClicks">0</div>
+    </div>
+    <div class="container">
+      <p>Target binary count</p>
+      <div class="target"></div>
+    </div>
+  </div>
+
+</body>
+<script src="libs/jquery.min.js"></script>
+<script src="scripts/observe.js"></script>
+<script src="scripts/index.js"></script>
+</html>

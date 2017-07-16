@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.game {
+  width:  800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.block {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.binaryButton {
+  width: 50px;
+}
